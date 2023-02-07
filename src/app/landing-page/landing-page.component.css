@@ -1,0 +1,14 @@
+
+.container-fluid{
+    background-color: rgb(201, 169, 171);
+}
+.btn{
+    margin-left: 45%;
+    margin-top: 20%;
+}
+.colour{
+    background-color: cornflowerblue;
+}
+.image{
+    height: 300px;
+}

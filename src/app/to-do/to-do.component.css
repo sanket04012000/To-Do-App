@@ -1,0 +1,26 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .example-container {
+  width: 300px;
+  height: 600px;
+}
+
+.example-sidenav {
+  padding: 20px;
+}
+.main{
+  background-color: rgb(175, 129, 68);
+}
+.content {
+  height: calc(100vh - 98px);
+  border-radius: 10px;
+  margin: 16px;
+  margin-left: 32px;
+}
+.colours{
+  background-color: rgb(201, 169, 171);
+}
+.abcd{
+  background-color: hwb(0 100% 0%);
+}

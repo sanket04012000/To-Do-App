@@ -1,0 +1,27 @@
+<mat-toolbar class="colours">
+  <mat-toolbar-row>
+    <button type="button" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" (click)="sidenav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <h1>
+      To Do App
+    </h1>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-sidenav-container >
+  <mat-sidenav class="colours" #sidenav opened="false" mode="side"  style="width: 4cm;">
+    <mat-nav-list class="ps-2">
+      <button mat-raised-button [routerLink]="'../todo/createTask'">Create Task</button>
+    </mat-nav-list>
+    <mat-divider></mat-divider>
+    <mat-nav-list class="ps-2">
+      <button mat-raised-button>View Task</button>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content class="abcd">
+    <div style="height: 90vh;">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
